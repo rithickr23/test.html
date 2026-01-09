@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Visual Bookmarks</title>
+
+<style>
+    body {
+        font-family: Tiempos, sans-serif;
+        background-image:url(https://royalcareneurosciences.com/wp-content/uploads/2024/05/hospital-img.jpg);
+        margin:0;
+        padding:400px;
+        text-align:center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    h1{
+        text-align:center;
+        display;block;
+    }
+
+    .bookmark-grid {
+        display: flex;
+        background:#D3D3D3;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        max-width: 920px;
+        margin: auto;
+    }
+
+    .bookmark {
+        border-radius: 14px;
+        padding: 20px 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .bookmark img {
+        width: 110px;
+        height: 90px;
+        margin-bottom: 12px;
+    }
+
+    .bookmark span {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="bookmark-grid">
+
+    <a class="bookmark" href="https://mail.royalcare.hospital/" target="_blank">
+        <img src="https://mail.royalcare.hospital/skins/_base/logos/LoginBanner_white.png?v=190329055110" style=background-color:dodgerblue;>
+        <span>Zimbra Mail</span>
+    </a>
+
+    <a class="bookmark" href="https://pacs.royalcare.hospital/" target="_blank">
+        <img src="https://mms.businesswire.com/media/20240415651211/en/2099043/4/PACS_logo.jpg">
+        <span>PACS</span>
+    </a>
+
+    <a class="bookmark" href="https://outlook.live.com/owa/" target="_blank">
+        <img src="https://img.icons8.com/color/1200/microsoft-outlook-2025.jpg">
+        <span>Outlook</span>
+    </a>
+
+    <a class="bookmark" href="http://172.16.0.50/royalcare" target="_blank">
+        <img src="http://172.16.0.50/royalcare/Content/images/banner.png">
+        <span>Employee Portal</span>
+    </a>
+
+    <a class="bookmark" href="https://432demotenxhealth3.zohocreatorportal.in/#Form:FMS_Ticketing_System" target="_blank">
+        <img src="https://uhorizon.pe/wp-content/uploads/2021/01/zoho-creator-header.png"  style=background-color:white;>
+        <span>Ticketing System</span>
+    </a>
+
+    <a class="bookmark" href="http://172.16.0.31:200/LoginNova.aspx" target="_blank">
+        <img src="http://172.16.0.31:200/images/login/akhil-logo.png"  style=background-color:white;>
+        <span>AKHIL HIMS</span>
+    </a>
+
+</div>
+
+</body>
+</html>
